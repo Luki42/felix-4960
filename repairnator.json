@@ -1,0 +1,142 @@
+{
+  "repository": {
+    "name": "Luki42/pdfbox_2995",
+    "githubId": 246287379,
+    "url": "https://github.com/Luki42/pdfbox_2995",
+    "isFork": false,
+    "original": {
+      "name": "",
+      "githubId": 0,
+      "url": ""
+    },
+    "isPullRequest": false,
+    "pullRequestId": 0
+  },
+  "builds": {
+    "buggyBuild": {
+      "id": 661485254,
+      "url": "http://travis-ci.org/Luki42/pdfbox_2995/builds/661485254",
+      "date": "Mar 12, 2020 12:17:43 PM"
+    }
+  },
+  "reproductionBuggyBuild": {
+    "reproductionDateBeginning": "Mar 16, 2020 1:08:02 PM",
+    "reproductionDateEnd": "Mar 16, 2020 1:12:37 PM",
+    "machineInfo": {
+      "hostName": "95773a6d54c3",
+      "numberCPU": 8,
+      "freeMemory": 78098544,
+      "totalMemory": 157810688
+    },
+    "totalDuration": 272,
+    "processDurations": {
+      "cloning": {
+        "nbSteps": 1,
+        "totalDuration": 3,
+        "stepNames": [
+          "CloneRepository"
+        ],
+        "stepDurations": [
+          3
+        ]
+      },
+      "building": {
+        "nbSteps": 2,
+        "totalDuration": 195,
+        "stepNames": [
+          "CheckoutBuggyBuild",
+          "BuildProject"
+        ],
+        "stepDurations": [
+          0,
+          195
+        ]
+      },
+      "testing": {
+        "nbSteps": 1,
+        "totalDuration": 3,
+        "stepNames": [
+          "TestProject"
+        ],
+        "stepDurations": [
+          3
+        ]
+      },
+      "fixing": {
+        "nbSteps": 1,
+        "totalDuration": 58,
+        "stepNames": [
+          "NPEFix"
+        ],
+        "stepDurations": [
+          58
+        ]
+      }
+    },
+    "projectRootPomPath": "./workspace/Luki42/pdfbox_2995/pom.xml"
+  },
+  "patchDiff": {
+    "files": {
+      "numberAdded": 0,
+      "numberChanged": 1,
+      "numberDeleted": 1
+    },
+    "lines": {
+      "numberAdded": 0,
+      "numberDeleted": 849
+    }
+  },
+  "tests": {
+    "failingModule": "/root/workspace/Luki42/pdfbox_2995",
+    "overallMetrics": {
+      "numberRunning": 1,
+      "numberPassing": 0,
+      "numberFailing": 0,
+      "numberErroring": 1,
+      "numberSkipping": 0,
+      "failures": [
+        {
+          "failureName": "java.lang.NullPointerException",
+          "isError": true,
+          "occurrences": 1
+        }
+      ]
+    },
+    "failingClasses": [
+      {
+        "testClass": "org.apache.pdfbox.pdmodel.interactive.form.PDAcroFormTest",
+        "numberRunning": 1,
+        "numberPassing": 0,
+        "numberFailing": 0,
+        "numberErroring": 1,
+        "numberSkipping": 0
+      }
+    ],
+    "failureDetails": [
+      {
+        "testClass": "org.apache.pdfbox.pdmodel.interactive.form.PDAcroFormTest",
+        "testMethod": "testAcroFormProperties",
+        "failureName": "java.lang.NullPointerException",
+        "isError": true
+      }
+    ]
+  },
+  "projectMetrics": {
+    "numberModules": 1,
+    "numberPlugins": 0,
+    "numberSourceFiles": 543,
+    "numberTestFiles": 1,
+    "numberLibrariesFailingModule": 6,
+    "numberLines": 64824
+  },
+  "commits": {
+    "buggyBuild": {
+      "repoName": "Luki42/pdfbox_2995",
+      "branchName": "master",
+      "sha": "b55ceb9eae96f3957bd1885bff4c250a8bd834f0",
+      "url": "http://github.com/Luki42/pdfbox_2995/commit/b55ceb9eae96f3957bd1885bff4c250a8bd834f0",
+      "date": "Mar 12, 2020 12:16:33 PM"
+    }
+  },
+  "type": "only_fail"
+}

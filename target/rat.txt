@@ -1,0 +1,211 @@
+
+*****************************************************
+Summary
+-------
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 175
+
+Apache Licensed: 175
+Generated Documents: 0
+
+JavaDocs are generated and so license header is optional
+Generated files do not required license headers
+
+0 Unknown Licenses
+
+*******************************
+
+Unapproved licenses:
+
+
+*******************************
+
+Archives:
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require AL headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc will be marked N
+  AL    src/test/java/org/apache/felix/framework/BundleRevisionImplTest.java
+  AL    src/main/resources/default.properties
+  AL    src/main/java/org/osgi/service/url/URLConstants.java
+  AL    src/main/java/org/osgi/service/url/URLStreamHandlerService.java
+  AL    src/main/java/org/osgi/service/url/AbstractURLStreamHandlerService.java
+  AL    src/main/java/org/osgi/service/url/URLStreamHandlerSetter.java
+  AL    src/main/java/org/osgi/service/startlevel/StartLevel.java
+  AL    src/main/java/org/osgi/service/packageadmin/RequiredBundle.java
+  AL    src/main/java/org/osgi/service/packageadmin/ExportedPackage.java
+  AL    src/main/java/org/osgi/service/packageadmin/PackageAdmin.java
+  AL    src/main/java/org/osgi/util/tracker/BundleTracker.java
+  AL    src/main/java/org/osgi/util/tracker/BundleTrackerCustomizer.java
+  AL    src/main/java/org/osgi/util/tracker/ServiceTrackerCustomizer.java
+  AL    src/main/java/org/osgi/util/tracker/ServiceTracker.java
+  AL    src/main/java/org/osgi/util/tracker/AbstractTracked.java
+  AL    src/main/java/org/osgi/framework/AdaptPermission.java
+  AL    src/main/java/org/osgi/framework/BundleEvent.java
+  AL    src/main/java/org/osgi/framework/launch/FrameworkFactory.java
+  AL    src/main/java/org/osgi/framework/launch/Framework.java
+  AL    src/main/java/org/osgi/framework/Filter.java
+  AL    src/main/java/org/osgi/framework/BundlePermission.java
+  AL    src/main/java/org/osgi/framework/Configurable.java
+  AL    src/main/java/org/osgi/framework/Bundle.java
+  AL    src/main/java/org/osgi/framework/UnfilteredServiceListener.java
+  AL    src/main/java/org/osgi/framework/FrameworkEvent.java
+  AL    src/main/java/org/osgi/framework/ServiceListener.java
+  AL    src/main/java/org/osgi/framework/ServiceEvent.java
+  AL    src/main/java/org/osgi/framework/PackagePermission.java
+  AL    src/main/java/org/osgi/framework/ServiceRegistration.java
+  AL    src/main/java/org/osgi/framework/ServicePermission.java
+  AL    src/main/java/org/osgi/framework/SynchronousBundleListener.java
+  AL    src/main/java/org/osgi/framework/BundleContext.java
+  AL    src/main/java/org/osgi/framework/startlevel/BundleStartLevel.java
+  AL    src/main/java/org/osgi/framework/startlevel/FrameworkStartLevel.java
+  AL    src/main/java/org/osgi/framework/startlevel/dto/FrameworkStartLevelDTO.java
+  AL    src/main/java/org/osgi/framework/startlevel/dto/BundleStartLevelDTO.java
+  AL    src/main/java/org/osgi/framework/Version.java
+  AL    src/main/java/org/osgi/framework/VersionRange.java
+  AL    src/main/java/org/osgi/framework/BundleListener.java
+  AL    src/main/java/org/osgi/framework/FrameworkUtil.java
+  AL    src/main/java/org/osgi/framework/BundleReference.java
+  AL    src/main/java/org/osgi/framework/ServiceException.java
+  AL    src/main/java/org/osgi/framework/namespace/IdentityNamespace.java
+  AL    src/main/java/org/osgi/framework/namespace/PackageNamespace.java
+  AL    src/main/java/org/osgi/framework/namespace/AbstractWiringNamespace.java
+  AL    src/main/java/org/osgi/framework/namespace/HostNamespace.java
+  AL    src/main/java/org/osgi/framework/namespace/BundleNamespace.java
+  AL    src/main/java/org/osgi/framework/namespace/ExecutionEnvironmentNamespace.java
+  AL    src/main/java/org/osgi/framework/namespace/NativeNamespace.java
+  AL    src/main/java/org/osgi/framework/wiring/BundleRevisions.java
+  AL    src/main/java/org/osgi/framework/wiring/BundleCapability.java
+  AL    src/main/java/org/osgi/framework/wiring/BundleRevision.java
+  AL    src/main/java/org/osgi/framework/wiring/BundleWiring.java
+  AL    src/main/java/org/osgi/framework/wiring/BundleWire.java
+  AL    src/main/java/org/osgi/framework/wiring/BundleRequirement.java
+  AL    src/main/java/org/osgi/framework/wiring/FrameworkWiring.java
+  AL    src/main/java/org/osgi/framework/wiring/dto/BundleWiringDTO.java
+  AL    src/main/java/org/osgi/framework/wiring/dto/BundleWireDTO.java
+  AL    src/main/java/org/osgi/framework/wiring/dto/BundleRevisionDTO.java
+  AL    src/main/java/org/osgi/framework/CapabilityPermission.java
+  AL    src/main/java/org/osgi/framework/InvalidSyntaxException.java
+  AL    src/main/java/org/osgi/framework/ServiceFactory.java
+  AL    src/main/java/org/osgi/framework/Constants.java
+  AL    src/main/java/org/osgi/framework/PrototypeServiceFactory.java
+  AL    src/main/java/org/osgi/framework/BundleActivator.java
+  AL    src/main/java/org/osgi/framework/ServiceReference.java
+  AL    src/main/java/org/osgi/framework/FrameworkListener.java
+  AL    src/main/java/org/osgi/framework/AdminPermission.java
+  AL    src/main/java/org/osgi/framework/ServiceObjects.java
+  AL    src/main/java/org/osgi/framework/AllServiceListener.java
+  AL    src/main/java/org/osgi/framework/SignerProperty.java
+  AL    src/main/java/org/osgi/framework/BundleException.java
+  AL    src/main/java/org/osgi/framework/hooks/service/FindHook.java
+  AL    src/main/java/org/osgi/framework/hooks/service/ListenerHook.java
+  AL    src/main/java/org/osgi/framework/hooks/service/EventListenerHook.java
+  AL    src/main/java/org/osgi/framework/hooks/service/EventHook.java
+  AL    src/main/java/org/osgi/framework/hooks/weaving/WeavingHook.java
+  AL    src/main/java/org/osgi/framework/hooks/weaving/WovenClassListener.java
+  AL    src/main/java/org/osgi/framework/hooks/weaving/WovenClass.java
+  AL    src/main/java/org/osgi/framework/hooks/weaving/WeavingException.java
+  AL    src/main/java/org/osgi/framework/hooks/bundle/FindHook.java
+  AL    src/main/java/org/osgi/framework/hooks/bundle/CollisionHook.java
+  AL    src/main/java/org/osgi/framework/hooks/bundle/EventHook.java
+  AL    src/main/java/org/osgi/framework/hooks/resolver/ResolverHookFactory.java
+  AL    src/main/java/org/osgi/framework/hooks/resolver/ResolverHook.java
+  AL    src/main/java/org/osgi/framework/dto/ServiceReferenceDTO.java
+  AL    src/main/java/org/osgi/framework/dto/FrameworkDTO.java
+  AL    src/main/java/org/osgi/framework/dto/BundleDTO.java
+  AL    src/main/java/org/osgi/resource/Namespace.java
+  AL    src/main/java/org/osgi/resource/Capability.java
+  AL    src/main/java/org/osgi/resource/Wiring.java
+  AL    src/main/java/org/osgi/resource/Wire.java
+  AL    src/main/java/org/osgi/resource/Resource.java
+  AL    src/main/java/org/osgi/resource/Requirement.java
+  AL    src/main/java/org/osgi/resource/dto/ResourceDTO.java
+  AL    src/main/java/org/osgi/resource/dto/CapabilityDTO.java
+  AL    src/main/java/org/osgi/resource/dto/RequirementRefDTO.java
+  AL    src/main/java/org/osgi/resource/dto/WiringDTO.java
+  AL    src/main/java/org/osgi/resource/dto/WireDTO.java
+  AL    src/main/java/org/osgi/resource/dto/CapabilityRefDTO.java
+  AL    src/main/java/org/osgi/resource/dto/RequirementDTO.java
+  AL    src/main/java/org/osgi/dto/DTO.java
+  AL    src/main/java/org/apache/felix/framework/URLHandlersContentHandlerProxy.java
+  AL    src/main/java/org/apache/felix/framework/ExtensionManager.java
+  AL    src/main/java/org/apache/felix/framework/URLHandlersBundleURLConnection.java
+  AL    src/main/java/org/apache/felix/framework/HookRegistry.java
+  AL    src/main/java/org/apache/felix/framework/BundleProtectionDomain.java
+  AL    src/main/java/org/apache/felix/framework/ServiceRegistry.java
+  AL    src/main/java/org/apache/felix/framework/BundleRevisionImpl.java
+  AL    src/main/java/org/apache/felix/framework/URLHandlers.java
+  AL    src/main/java/org/apache/felix/framework/StatefulResolver.java
+  AL    src/main/java/org/apache/felix/framework/DTOFactory.java
+  AL    src/main/java/org/apache/felix/framework/URLHandlersActivator.java
+  AL    src/main/java/org/apache/felix/framework/FrameworkWiringImpl.java
+  AL    src/main/java/org/apache/felix/framework/PackageAdminImpl.java
+  AL    src/main/java/org/apache/felix/framework/BundleWiringImpl.java
+  AL    src/main/java/org/apache/felix/framework/EntryFilterEnumeration.java
+  AL    src/main/java/org/apache/felix/framework/FrameworkFactory.java
+  AL    src/main/java/org/apache/felix/framework/BundleRevisionDependencies.java
+  AL    src/main/java/org/apache/felix/framework/URLHandlersStreamHandlerProxy.java
+  AL    src/main/java/org/apache/felix/framework/Felix.java
+  AL    src/main/java/org/apache/felix/framework/WovenClassImpl.java
+  AL    src/main/java/org/apache/felix/framework/BundleContextImpl.java
+  AL    src/main/java/org/apache/felix/framework/RequiredBundleImpl.java
+  AL    src/main/java/org/apache/felix/framework/FrameworkStartLevelImpl.java
+  AL    src/main/java/org/apache/felix/framework/util/ThreadGate.java
+  AL    src/main/java/org/apache/felix/framework/util/Mutex.java
+  AL    src/main/java/org/apache/felix/framework/util/CompoundEnumeration.java
+  AL    src/main/java/org/apache/felix/framework/util/manifestparser/ManifestParser.java
+  AL    src/main/java/org/apache/felix/framework/util/manifestparser/ParsedHeaderClause.java
+  AL    src/main/java/org/apache/felix/framework/util/manifestparser/NativeLibrary.java
+  AL    src/main/java/org/apache/felix/framework/util/manifestparser/NativeLibraryClause.java
+  AL    src/main/java/org/apache/felix/framework/util/Util.java
+  AL    src/main/java/org/apache/felix/framework/util/ShrinkableCollection.java
+  AL    src/main/java/org/apache/felix/framework/util/ImmutableList.java
+  AL    src/main/java/org/apache/felix/framework/util/WeakZipFileFactory.java
+  AL    src/main/java/org/apache/felix/framework/util/FelixConstants.java
+  AL    src/main/java/org/apache/felix/framework/util/ListenerInfo.java
+  AL    src/main/java/org/apache/felix/framework/util/SecureAction.java
+  AL    src/main/java/org/apache/felix/framework/util/VersionRange.java
+  AL    src/main/java/org/apache/felix/framework/util/SecurityManagerEx.java
+  AL    src/main/java/org/apache/felix/framework/util/MapToDictionary.java
+  AL    src/main/java/org/apache/felix/framework/util/StringMap.java
+  AL    src/main/java/org/apache/felix/framework/util/ImmutableMap.java
+  AL    src/main/java/org/apache/felix/framework/util/ShrinkableMap.java
+  AL    src/main/java/org/apache/felix/framework/util/StringComparator.java
+  AL    src/main/java/org/apache/felix/framework/util/EventDispatcher.java
+  AL    src/main/java/org/apache/felix/framework/ServiceRegistrationImpl.java
+  AL    src/main/java/org/apache/felix/framework/BundleImpl.java
+  AL    src/main/java/org/apache/felix/framework/resolver/ResolveException.java
+  AL    src/main/java/org/apache/felix/framework/resolver/CandidateComparator.java
+  AL    src/main/java/org/apache/felix/framework/resolver/ResourceNotFoundException.java
+  AL    src/main/java/org/apache/felix/framework/ExportedPackageImpl.java
+  AL    src/main/java/org/apache/felix/framework/cache/BundleCache.java
+  AL    src/main/java/org/apache/felix/framework/cache/DirectoryContent.java
+  AL    src/main/java/org/apache/felix/framework/cache/DirectoryRevision.java
+  AL    src/main/java/org/apache/felix/framework/cache/BundleArchive.java
+  AL    src/main/java/org/apache/felix/framework/cache/JarContent.java
+  AL    src/main/java/org/apache/felix/framework/cache/BundleArchiveRevision.java
+  AL    src/main/java/org/apache/felix/framework/cache/Content.java
+  AL    src/main/java/org/apache/felix/framework/cache/ContentDirectoryContent.java
+  AL    src/main/java/org/apache/felix/framework/cache/JarRevision.java
+  AL    src/main/java/org/apache/felix/framework/capabilityset/SimpleFilter.java
+  AL    src/main/java/org/apache/felix/framework/capabilityset/CapabilitySet.java
+  AL    src/main/java/org/apache/felix/framework/wiring/BundleWireImpl.java
+  AL    src/main/java/org/apache/felix/framework/wiring/BundleRequirementImpl.java
+  AL    src/main/java/org/apache/felix/framework/wiring/BundleCapabilityImpl.java
+  AL    src/main/java/org/apache/felix/framework/URLHandlersBundleStreamHandler.java
+  AL    src/main/java/org/apache/felix/framework/ResolveContextImpl.java
+  AL    src/main/java/org/apache/felix/framework/Logger.java
+  AL    src/main/java/org/apache/felix/framework/ext/SecurityProvider.java
+  AL    src/main/java/org/apache/felix/framework/ext/FelixBundleContext.java
+  AL    src/main/java/org/apache/felix/framework/FakeURLStreamHandler.java
+  AL    src/main/java/org/apache/felix/framework/FilterImpl.java
+  AL    src/main/java/org/apache/felix/framework/StartLevelImpl.java
+ 
+ *****************************************************
+ Printing headers for files without AL header...
+ 
+ 

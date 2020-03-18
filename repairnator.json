@@ -1,0 +1,142 @@
+{
+  "repository": {
+    "name": "Luki42/felix-4960",
+    "githubId": 246286560,
+    "url": "https://github.com/Luki42/felix-4960",
+    "isFork": false,
+    "original": {
+      "name": "",
+      "githubId": 0,
+      "url": ""
+    },
+    "isPullRequest": false,
+    "pullRequestId": 0
+  },
+  "builds": {
+    "buggyBuild": {
+      "id": 663865418,
+      "url": "http://travis-ci.org/Luki42/felix-4960/builds/663865418",
+      "date": "Mar 18, 2020 10:52:58 AM"
+    }
+  },
+  "reproductionBuggyBuild": {
+    "reproductionDateBeginning": "Mar 18, 2020 11:08:58 AM",
+    "reproductionDateEnd": "Mar 18, 2020 11:10:59 AM",
+    "machineInfo": {
+      "hostName": "ec1ad289260c",
+      "numberCPU": 8,
+      "freeMemory": 140236984,
+      "totalMemory": 203948032
+    },
+    "totalDuration": 119,
+    "processDurations": {
+      "cloning": {
+        "nbSteps": 1,
+        "totalDuration": 4,
+        "stepNames": [
+          "CloneRepository"
+        ],
+        "stepDurations": [
+          4
+        ]
+      },
+      "building": {
+        "nbSteps": 2,
+        "totalDuration": 37,
+        "stepNames": [
+          "CheckoutBuggyBuild",
+          "BuildProject"
+        ],
+        "stepDurations": [
+          0,
+          37
+        ]
+      },
+      "testing": {
+        "nbSteps": 1,
+        "totalDuration": 4,
+        "stepNames": [
+          "TestProject"
+        ],
+        "stepDurations": [
+          4
+        ]
+      },
+      "fixing": {
+        "nbSteps": 1,
+        "totalDuration": 66,
+        "stepNames": [
+          "NPEFix"
+        ],
+        "stepDurations": [
+          66
+        ]
+      }
+    },
+    "projectRootPomPath": "./workspace/Luki42/felix-4960/pom.xml"
+  },
+  "patchDiff": {
+    "files": {
+      "numberAdded": 0,
+      "numberChanged": 1,
+      "numberDeleted": 1
+    },
+    "lines": {
+      "numberAdded": 25,
+      "numberDeleted": 1843
+    }
+  },
+  "tests": {
+    "failingModule": "/root/workspace/Luki42/felix-4960",
+    "overallMetrics": {
+      "numberRunning": 1,
+      "numberPassing": 0,
+      "numberFailing": 0,
+      "numberErroring": 1,
+      "numberSkipping": 0,
+      "failures": [
+        {
+          "failureName": "java.lang.NullPointerException",
+          "isError": true,
+          "occurrences": 1
+        }
+      ]
+    },
+    "failingClasses": [
+      {
+        "testClass": "org.apache.felix.framework.BundleRevisionImplTest",
+        "numberRunning": 1,
+        "numberPassing": 0,
+        "numberFailing": 0,
+        "numberErroring": 1,
+        "numberSkipping": 0
+      }
+    ],
+    "failureDetails": [
+      {
+        "testClass": "org.apache.felix.framework.BundleRevisionImplTest",
+        "testMethod": "testGetResourcesLocalNullContentPath",
+        "failureName": "java.lang.NullPointerException",
+        "isError": true
+      }
+    ]
+  },
+  "projectMetrics": {
+    "numberModules": 1,
+    "numberPlugins": 0,
+    "numberSourceFiles": 173,
+    "numberTestFiles": 1,
+    "numberLibrariesFailingModule": 7,
+    "numberLines": 33069
+  },
+  "commits": {
+    "buggyBuild": {
+      "repoName": "Luki42/felix-4960",
+      "branchName": "master",
+      "sha": "6e7837ace74a1a10e1d036988b5e4ac958554a68",
+      "url": "http://github.com/Luki42/felix-4960/commit/6e7837ace74a1a10e1d036988b5e4ac958554a68",
+      "date": "Mar 10, 2020 1:32:41 PM"
+    }
+  },
+  "type": "only_fail"
+}

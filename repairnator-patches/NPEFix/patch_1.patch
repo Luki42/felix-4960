@@ -1,0 +1,39 @@
+--- a/src/main/java/org/apache/felix/framework/BundleRevisionImpl.java
++++ b/src/main/java/org/apache/felix/framework/BundleRevisionImpl.java
+@@ -536,11 +536,27 @@
+             // Check the module class path.
+-            for (int i = 0; i < contentPath.size(); i++)
+-            {
+-                if (contentPath.get(i).hasEntry(name))
+-                {
+-                    // Use the class path index + 1 for creating the path so
+-                    // that we can differentiate between module content URLs
+-                    // (where the path will start with 0) and module class
+-                    // path URLs.
+-                    l.add(createURL(i + 1, name));
++            } else {
++                if (contentPath == null) {
++                    for (int i = 0; i < m_declaredCaps.size(); i++)
++                    {
++                        if (contentPath.get(i).hasEntry(name))
++                        {
++                            // Use the class path index + 1 for creating the path so
++                            // that we can differentiate between module content URLs
++                            // (where the path will start with 0) and module class
++                            // path URLs.
++                            l.add(createURL(i + 1, name));
++                        }
++                    }
++                } else {
++                    for (int i = 0; i < contentPath.size(); i++)
++                    {
++                        if (contentPath.get(i).hasEntry(name))
++                        {
++                            // Use the class path index + 1 for creating the path so
++                            // that we can differentiate between module content URLs
++                            // (where the path will start with 0) and module class
++                            // path URLs.
++                            l.add(createURL(i + 1, name));
++                        }
++                    }
+                 }
